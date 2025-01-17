@@ -1,0 +1,35 @@
+# Sample Kala Code
+
+# Declare a list
+list myList = [1, 2, 3, 4, 5]
+
+# Print a message
+print "Welcome to Kala Language!"
+
+# If statement
+if myList[0] == 1 {
+    print "First element is 1"
+}
+
+# While loop
+while myList[0] < 10 {
+    print "Incrementing first element"
+    myList[0] = myList[0] + 1
+}
+
+# For loop
+for i in range(0, 5) {
+    print "Index: "
+    print i
+}
+
+# Define a class
+class MyClass {
+    method greet() {
+        print "Hello from MyClass!"
+    }
+}
+
+# Instantiate the class and call a method
+MyClass instance
+instance.greet()
